@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://www.hardwarewallet.com/drivers.html -->
+<html lang="en" class="gr__hardwarewallet_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>HardwareWallet.com - Drivers</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Smartcard implementation of a Bitcoin Hardware Wallet, providing private keys security and anti malware features">
+		<meta name="author" content="">
+
+		<!-- Le styles -->
+		<link href="./HardwareWallet.com - Drivers_files/bootstrap.css" rel="stylesheet">
+		<!--  <style>
+		  body {padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */}
+		</style> -->
+		<link href="./HardwareWallet.com - Drivers_files/my-bootstrap-responsive.css" rel="stylesheet">
+		<link href="./HardwareWallet.com - Drivers_files/bootstrap-responsive.css" rel="stylesheet">
+		<link href="./HardwareWallet.com - Drivers_files/style.css" rel="stylesheet">
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		  <script src="js/html5shiv.js"></script>
+		<![endif]-->
+
+		<!-- Fav and touch icons -->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.hardwarewallet.com/ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.hardwarewallet.com/ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.hardwarewallet.com/ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="https://www.hardwarewallet.com/ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="https://www.hardwarewallet.com/img/favicon.ico">
+	</head>
+
+	<body data-gr-c-s-loaded="true">
+		<div class="entete">
+			<a href="http://www.hardwarewallet.com/index.html">
+				<div class="centre"><img src="./HardwareWallet.com - Drivers_files/HW-logo.png" alt="BTC-logo"></div>
+			</a>
+		</div>
+
+		<div class="navbar navbar-inverse">
+		  <div class="navbar-inner">
+			<div class="container">
+			  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <div class="nav-collapse collapse">
+				<ul class="nav">
+				  <li><a href="http://www.hardwarewallet.com/index.html">Hardware Wallet</a></li>
+				  <li class="active"><a href="http://www.hardwarewallet.com/drivers.html">Drivers</a></li>
+				  <li><a href="http://www.hardwarewallet.com/software.html">Compatible software wallets</a></li>
+				  <li><a href="http://www.hardwarewallet.com/faq.html">Support / FAQ</a></li>
+				  <li><a href="http://www.hardwarewallet.com/contact.html">About / Contact</a></li>
+				</ul>
+			  </div><!--/.nav-collapse -->
+			</div>
+		  </div>
+		</div>
+
+		<div class="container">
+			<h2 class="centre">- Hardware Wallet Drivers -</h2>
+
+			<div class="row">
+				<div class="span6">
+					<h3>1- Prepare the cards</h3>
+					<p>Remove the cut out dongle from the main plastic card, fold the clip below under the chip until it fits in place and makes the dongle thicker, then it's ready to be used</p>
+					<p><strong>DO NOT CLIP THE SMALL PART LABELLED 'CLIP', FOLD IT INSTEAD</strong> (yes, we're still busy learning proper english)</p> 
+					<p>The prepared dongle should look like this on the back side
+					<img src="./HardwareWallet.com - Drivers_files/dongle_fold.png"></p>
+					<img src="./HardwareWallet.com - Drivers_files/tiny_card.png">
+				</div>
+
+				<div class="span6">
+					<h3>2- Install drivers if needed</h3>
+						<h3>Windows:</h3>
+						<ul>
+							<li>Nothing to do. Plug and play.</li>
+							<li>(If you ordered your device before end of October 2014, please check the <a class="green" href="https://www.hardwarewallet.com/drivers_old.html">deprecated drivers page</a> and <a class="green" href="https://firmwareupdate.hardwarewallet.com/" target="_blank">update your firmware</a>)
+						</li></ul>
+						<h3>Mac OS X:</h3>
+						<ul>
+							<li>Nothing to do. Plug and play.</li>
+						</ul>
+						<h3>Linux:</h3>
+						<ul>
+							<li>Simply install a new udev rule, typically into /etc/udev/rules.d to support the devices (vid=0x2581, pid=0x1b7c, 0x2b7c, 0x3b7c, 0x4b7c, 0x1807 and 0x1808), then restart udev. For example, on a Debian based distribution, you can run, after verifying the downloaded script</li>
+							<div class="code">
+								<p>
+								wget https://hardwarewallet.com/zip/add_btchip_driver.sh
+								<br>
+								sudo bash add_btchip_driver.sh
+								<br>
+								</p>
+							</div>
+						</ul>
+				</div>
+			</div>
+			
+
+			</div> <!-- /container -->
+				
+				<div class="container">
+					<div class="footer">
+						<p class="centre">© Hardware Wallet 2014</p>
+						<p class="centre">by <a class="green" href="http://www.ledger.co/" target="_blank">Ledger</a></p>
+
+					</div>
+				</div>
+			
+		
+
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script async="" src="./HardwareWallet.com - Drivers_files/analytics.js.download"></script><script src="./HardwareWallet.com - Drivers_files/jquery.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-transition.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-alert.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-modal.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-dropdown.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-scrollspy.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-tab.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-tooltip.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-popover.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-button.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-collapse.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-carousel.js.download"></script>
+		<script src="./HardwareWallet.com - Drivers_files/bootstrap-typeahead.js.download"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54623458-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+	
+
+</body></html>
